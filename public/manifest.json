@@ -1,0 +1,25 @@
+{
+  "short_name": "iran-tournament",
+  "name": "iran-tournament",
+  "icons": [
+    {
+      "src": "logo.jpg",
+      "sizes": "50x50 32x32 ",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.jpg",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "logo.jpg",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
