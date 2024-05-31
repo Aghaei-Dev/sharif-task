@@ -2,6 +2,8 @@
 
 ## Auth API Documentation
 
+### base URl : REACT_APP_API_BASE_URL='http://9craft.ir:5001'
+
 ### Register User
 
 - **Method:** POST
@@ -45,3 +47,9 @@
 ## Posts Api `https://jsonplaceholder.typicode.com/`
 
 > Consider this **resource will not be really updated on the server but it will be faked as if.**
+
+## Auth with JWT and Context
+
+## State management : Redux toolkit
+
+## For CRUD operation and logic See : `features/post/`

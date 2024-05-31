@@ -73,7 +73,7 @@ export default function Edit() {
           style={{ width: '100%' }}
         >
           {isLoading ? (
-            <Loader color='var(--text-white)' border='var(--primary-500)' />
+            <Loader color='var(--text-white)' border='var(--success-500)' />
           ) : (
             'Edit'
           )}

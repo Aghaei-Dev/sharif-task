@@ -42,7 +42,7 @@ export default function Footer() {
             </Row>
             <Row>
               <Email />
-              info@irtournament.ir
+              info@sharif.ir
             </Row>
           </article>
 

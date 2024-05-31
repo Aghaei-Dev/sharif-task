@@ -4,8 +4,8 @@ export default function SubFooter() {
     <Wrapper>
       <div className='fixed-width'>
         <p>
-          تمامی حقوق این وبسایت، خدمات و محتوای مربوط به آن متعلق به ایران
-          تورنومنت می‌باشد. ( Powered by Aghaei-Dev )
+          تمامی حقوق این وبسایت، خدمات و محتوای مربوط به آن متعلق به سپید سیستم
+          شریف می‌باشد. ( Powered by Aghaei-Dev )
         </p>
         <div className='btn-container'>
           <a href=''>سوالات متداول</a>

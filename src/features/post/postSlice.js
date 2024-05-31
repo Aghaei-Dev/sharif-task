@@ -17,7 +17,6 @@ export const getSpecificPost = createAsyncThunk(
   'posts/getSinglePost',
   getSinglePostThunk
 )
-
 export const deletePost = createAsyncThunk('posts/deletePost', deletePostThunk)
 export const createPost = createAsyncThunk('posts/createPost', createPostThunk)
 export const editPost = createAsyncThunk('posts/editPost', editPostThunk)
@@ -32,6 +31,8 @@ const postSlice = createSlice({
     hideLoading: (state) => {
       state.isLoading = false
     },
+
+    // TODO : paginate
     handleChange: (state, { payload: { name, value } }) => {
       state.page = 1
       state[name] = value
